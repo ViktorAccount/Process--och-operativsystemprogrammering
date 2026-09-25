@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "unistd.h": "c",
+        "syscall.h": "c",
+        "stdio.h": "c",
+        "map.h": "c",
+        "stddef.h": "c",
+        "file.h": "c",
+        "flist.h": "c",
+        "stdlib.h": "c",
+        "plist.h": "c",
+        "malloc.h": "c",
+        "type_traits": "c",
+        "synch.h": "c",
+        "thread.h": "c",
+        "list.h": "c",
+        "pagedir.h": "c",
+        "debug.h": "c"
+    }
+}
