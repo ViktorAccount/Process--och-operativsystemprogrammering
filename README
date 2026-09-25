@@ -1,0 +1,79 @@
+## Process- och operativsystemprogrammering
+Practiced concurrency programming with a labpartner from University. 
+
+The project involved extending and working with Pintos, an educational operating system written in C,
+to explore core operating-system concepts.
+
+## What We Worked On
+
+- C programming and memory management
+
+- Pintos operating-system development
+
+- System calls
+
+- User programs and kernel interaction
+
+- Process creation and management
+
+- exec, wait and exit
+
+- File operations and file systems
+
+- Threads and concurrent execution
+
+- Locks and critical sections
+
+- Semaphores and synchronization
+
+- Race conditions
+
+- Deadlocks
+
+- Safe handling and validation of user memory
+
+- Debugging with GDB
+
+- Testing and troubleshooting
+
+- Project Structure 
+
+## Pintos:
+
+pintos/
+├── threads/    # Threads and synchronization
+├── userprog/  # Processes and system calls
+├── filesys/   # File-system functionality
+├── examples/  # Example user programs
+└── tests/     # Tests for implemented functionality
+Main Concepts
+System Calls
+
+Implemented and worked with the interface between user programs and the operating-system kernel.
+This included handling system-call arguments, return values, files and processes.
+
+## Process Management
+
+Worked with creating and managing processes, including parent/child relationships and process lifecycle operations such as:
+
+exec → start process
+wait → wait for child
+exit → terminate process
+Synchronization
+
+## Implemented synchronization mechanisms to safely handle concurrent execution and shared resources.
+
+- Locks
+
+- Semaphores
+
+- Critical sections
+
+- Condition variables
+
+- Race conditions
+
+- Deadlocks
+
+Studied how deadlocks can occur when multiple threads wait for resources held by each other, 
+and how synchronization design can prevent these situations.
